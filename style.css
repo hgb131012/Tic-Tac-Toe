@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(77, 213, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#player-a {
+    color: blue;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#player-b {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.symbol-container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+}
+
+.grid {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    margin: 0.75px;
+}
+
+#player-turn {
+    color: blue;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#board-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
