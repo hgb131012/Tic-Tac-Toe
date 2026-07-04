@@ -9,7 +9,7 @@ A classic two-player Tic Tac Toe game built with HTML, CSS, and JavaScript. This
 - [Things Learned](#-things-learned)
 
 ## 🚀 Live Demo
-You can play the game directly in your browser here: **[Insert Your Live Link Here]**
+You can play the game directly in your browser here: **[Tic Tac Toe Game](https://hgb131012.github.io/Tic-Tac-Toe/)**
 
 ## ✨ Features
 - **Two-player mode**: Play locally with a friend (X and O).
